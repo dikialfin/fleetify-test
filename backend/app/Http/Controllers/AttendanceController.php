@@ -241,7 +241,7 @@ class AttendanceController extends Controller
                 'message' => 'Data successfully inserted',
                 'data' => [
                     "attendance_id" => $attendance->id,
-                    "clock_in" => $attendance->clock_in,
+                    "clock_out" => $attendance->clock_out,
                     "status" => $clockOut < $employee->departement->max_clock_out_time ? "EARLY" : "NICE",
                 ],
             ], 201);
