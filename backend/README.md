@@ -43,7 +43,6 @@ aplikasi backend yang dibangun menggunakan Laravel 12 dan berfungsi sebagai sist
         DELETE "/employee/{id}"
         menghapus data employee berdasarkan employee_id nya
 
-=======================================================================================================================================================================
 
     - Departement
         GET "/departement"
@@ -61,7 +60,6 @@ aplikasi backend yang dibangun menggunakan Laravel 12 dan berfungsi sebagai sist
         DELETE "/departement/{id}"
         menghapus data departement berdasarkan employee_id nya
 
-=======================================================================================================================================================================
 
     - Attendance
         GET "/attendance"
